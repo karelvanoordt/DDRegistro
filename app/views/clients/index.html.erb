@@ -3,14 +3,27 @@
 <h1 class='title is-1'>Clientes</h1>
 
 <div id="clients">
-  <% @clients.each do |client| %>
-    <%= render client %>
-    <p>
-      <%= link_to "Detalles", client %>
-    </p>
-  <% end %>
+  <% if @clients.empty? %>
+
+    <p>No existen registros de cliente</p>
+  <% else %>
+
+    <% @clients.each do |client| %>
+      <%= render client %>
+      <p>
+        <%= link_to "Detalles", client %>
+      </p>
+    <% end %>
+  <%end%>
 </div>
 
 <div id='submit-btn' class='button is-info'>
 <%= link_to "Nuevo Cliente", new_client_path %>
+</div>
+
+</br>
+</br>
+
+<div id='logout-btn' class='button is-danger'>
+  <%= link_to "Cerrar Sesión", destroy_user_session_path %>
 </div>
