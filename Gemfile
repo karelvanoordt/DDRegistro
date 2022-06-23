@@ -3,8 +3,14 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-#Devise for user authentication
+# Devise for user authentication
 gem 'devise'
+
+# Bulma for small tweaks on frontend
+gem "bulma-rails", "~> 0.9.3"
+
+# Sass-Rails for scss compatibility
+gem 'sass-rails'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3"

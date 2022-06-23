@@ -12,21 +12,21 @@
   <% end %>
 
   <div>
-    <%= form.label :client_name, style: "display: block" %>
+    <%= form.label 'Cliente', style: "display: block" %>
     <%= form.text_field :client_name %>
   </div>
 
   <div>
-    <%= form.label :client_rfc, style: "display: block" %>
+    <%= form.label 'RFC', style: "display: block" %>
     <%= form.text_field :client_rfc %>
   </div>
 
   <div>
-    <%= form.label :phone, style: "display: block" %>
+    <%= form.label 'Teléfono', style: "display: block" %>
     <%= form.number_field :phone %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit  'Crear' %>
   </div>
 <% end %>
