@@ -3,7 +3,7 @@
 
 > Una plataforma en donde empresas pueden registrar y listar a sus clientes de manera fácil y ordenada (Desarrollada para Take Home Assesment de DD MX).
 
-<div>
+<div style="align-items:center">
   <img src="DDR1.png" width=350>
   <img src="DDR2.png" width=350>
   <img src="DDR3.png" width=350>
