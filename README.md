@@ -1,24 +1,66 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# DDRegistro
 
-Things you may want to cover:
+> Una plataforma en donde empresas pueden registrar y listar a sus clientes de manera fácil y ordenada (Desarrollada para Take Home Assesment de DD MX).
 
-* Ruby version
 
-* System dependencies
+## Tecnologías
 
-* Configuration
+- Ruby
+- Ruby on Rails
+- MySQL
 
-* Database creation
 
-* Database initialization
+## Inicio
 
-* How to run the test suite
+Para obtener una copia de la aplicación solo siga estos pasos:
 
-* Services (job queues, cache servers, search engines, etc.)
+Ejecutar el comando `git clone` seguido de https://github.com/karelvanoordt/DDRegistro.git
 
-* Deployment instructions
+`cd DDRegistro`
 
-* ...
+
+### Prerequisitos
+
+Contar localmente con:
+- Ruby on Rails
+- MySQL
+- Un editor de código (IDE) como VSCode o Atom. 
+
+### Configuración
+
+Ejecutar `bundle install` para instalar gemas y dependencias.
+
+Configurar base de datos `rails db:create` y `rails db:migrate`
+
+### Uso
+
+Ejecutar aplicación con el comando `rails s`
+
+Abrir http://localhost:3000/ en el navegador
+
+
+## Autor
+
+👤 **Karel van Oordt**
+
+- GitHub: [@karelvanoordt](https://github.com/karelvanoordt)
+- Twitter: [@karelvanoordt](https://twitter.com/karelvanoordt)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/karelvanoordt)
+
+
+
+## 🤝 Contribución
+
+Contribuciones, issues y pedidos de nuevos features son bienvenidos.
+
+
+Visital la página de [issues](https://github.com/karelvanoordt/DDRegistro/issues/).
+
+## ¡Apoya a un colega!
+
+Dale una ⭐️ si te gusta este proyecto!
+
+## Reconocimientos
+
+- Gracias al equipo de DDMX por la oportunidad de llevar a cabo este assesment.
