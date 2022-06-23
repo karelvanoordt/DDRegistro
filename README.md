@@ -9,6 +9,8 @@
 - Ruby
 - Ruby on Rails
 - MySQL
+- Devise
+- Bulma (SCSS)
 
 
 ## Inicio
@@ -34,6 +36,8 @@ Ejecutar `bundle install` para instalar gemas y dependencias.
 Configurar base de datos `rails db:create` y `rails db:migrate`
 
 ### Uso
+
+Asegurarse de estar utilizando la rama (branch) `dev`
 
 Ejecutar aplicación con el comando `rails s`
 
